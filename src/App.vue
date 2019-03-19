@@ -6,17 +6,16 @@
 <script>
 import qs from 'querystring'
 import tab from '../src/components/header/tab'
-import allGoods from '../src/components/goods/goods'
+// import allGoods from '../src/components/goods/goods'
 import goodsFood from '../src/components/goods/food/food'
-import goodsCook from '../src/components/goods/cook/cook'
-import goodsSmoke from '../src/components/goods/smoke/smoke'
-import goodsEveryday from '../src/components/goods/everyday/everyday'
+// import goodsCook from '../src/components/goods/cook/cook'
+// import goodsSmoke from '../src/components/goods/smoke/smoke'
+// import goodsEveryday from '../src/components/goods/everyday/everyday'
 
 export default {
     data(){
       return{
         seller:{
-          id:qs.parser(location.search).id
         }
       }
     },
@@ -69,3 +68,4 @@ export default {
 </script>
 <style lang="stylus">
 </style>
+
