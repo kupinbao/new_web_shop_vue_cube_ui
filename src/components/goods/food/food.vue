@@ -2,7 +2,6 @@
       <cube-scroll-nav
         :side="true"
         :data="maxs"
-        :current="current"
         @change="changeHandler"
         @sticky-change="stickyChangeHandler"
         >
@@ -110,4 +109,6 @@
 }
 
 </style>
+
+
 
